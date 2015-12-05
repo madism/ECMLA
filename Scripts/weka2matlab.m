@@ -73,8 +73,6 @@ if(iscell(mode))
    mdata = celldata;
     
 end
-
-
 end
 
 %Copyright (c) 2009, Matt Dunham
