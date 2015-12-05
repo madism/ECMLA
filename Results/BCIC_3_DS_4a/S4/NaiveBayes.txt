@@ -1,0 +1,890 @@
+=== Run information ===
+
+Scheme:weka.classifiers.bayes.NaiveBayes 
+Relation:     classes
+Instances:    168
+Attributes:   113
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute            0       1
+                (0.54)  (0.46)
+===============================
+var1
+  mean           2.3361  2.3422
+  std. dev.      1.3869  1.3641
+  weight sum         90      78
+  precision      0.0388  0.0388
+
+var2
+  mean           2.1215  2.1516
+  std. dev.      1.2753  1.2936
+  weight sum         90      78
+  precision      0.0366  0.0366
+
+var3
+  mean           1.3584  1.4456
+  std. dev.      0.8961  0.9734
+  weight sum         90      78
+  precision      0.0284  0.0284
+
+var4
+  mean            1.089  1.2248
+  std. dev.      0.7319   0.771
+  weight sum         90      78
+  precision      0.0228  0.0228
+
+var5
+  mean           1.0146  1.1846
+  std. dev.      0.7245   0.891
+  weight sum         90      78
+  precision      0.0231  0.0231
+
+var6
+  mean           1.1211  1.2555
+  std. dev.      0.6384  0.8111
+  weight sum         90      78
+  precision      0.0225  0.0225
+
+var7
+  mean           1.0993  1.2537
+  std. dev.      0.6597    0.76
+  weight sum         90      78
+  precision      0.0318  0.0318
+
+var8
+  mean            1.065  1.2005
+  std. dev.      0.7688  0.7157
+  weight sum         90      78
+  precision      0.0238  0.0238
+
+var9
+  mean            1.304  1.4945
+  std. dev.      0.7838  0.8466
+  weight sum         90      78
+  precision      0.0329  0.0329
+
+var10
+  mean           1.3133  1.4289
+  std. dev.       0.948  0.7968
+  weight sum         90      78
+  precision      0.0281  0.0281
+
+var11
+  mean           1.3848  1.6525
+  std. dev.      0.8584  0.9036
+  weight sum         90      78
+  precision      0.0234  0.0234
+
+var12
+  mean           1.4359  1.6189
+  std. dev.      0.8827  0.8918
+  weight sum         90      78
+  precision      0.0337  0.0337
+
+var13
+  mean           1.5005  1.5733
+  std. dev.      0.9687  0.8948
+  weight sum         90      78
+  precision      0.0283  0.0283
+
+var14
+  mean           1.5474  1.6597
+  std. dev.      0.9057  0.9341
+  weight sum         90      78
+  precision      0.0284  0.0284
+
+var15
+  mean           1.6622  1.7441
+  std. dev.      0.9616  0.9438
+  weight sum         90      78
+  precision      0.0305  0.0305
+
+var16
+  mean            1.641  1.7598
+  std. dev.      0.9463  0.9472
+  weight sum         90      78
+  precision      0.0298  0.0298
+
+var17
+  mean           4.0247  4.2908
+  std. dev.      2.3952  2.2065
+  weight sum         90      78
+  precision      0.0575  0.0575
+
+var18
+  mean           3.6963  3.8233
+  std. dev.      2.1225  1.8875
+  weight sum         90      78
+  precision      0.0419  0.0419
+
+var19
+  mean           2.1781  2.4307
+  std. dev.      0.9739  1.3098
+  weight sum         90      78
+  precision       0.056   0.056
+
+var20
+  mean           1.6936  1.6991
+  std. dev.      0.6058   0.772
+  weight sum         90      78
+  precision      0.0343  0.0343
+
+var21
+  mean           1.6094  1.8885
+  std. dev.      0.6068  1.0792
+  weight sum         90      78
+  precision      0.0522  0.0522
+
+var22
+  mean           1.7799  1.8413
+  std. dev.      0.6088  0.8127
+  weight sum         90      78
+  precision      0.0329  0.0329
+
+var23
+  mean           1.7424    1.93
+  std. dev.      0.6331  1.1568
+  weight sum         90      78
+  precision      0.0556  0.0556
+
+var24
+  mean           1.9158  2.0456
+  std. dev.      0.7501   1.109
+  weight sum         90      78
+  precision      0.0484  0.0484
+
+var25
+  mean           2.3106  2.5459
+  std. dev.      0.8809  1.4772
+  weight sum         90      78
+  precision      0.0715  0.0715
+
+var26
+  mean           2.4655  2.5515
+  std. dev.      1.0076  1.2636
+  weight sum         90      78
+  precision      0.0526  0.0526
+
+var27
+  mean           2.5724  2.6451
+  std. dev.        0.96  1.3503
+  weight sum         90      78
+  precision      0.0683  0.0683
+
+var28
+  mean           2.6408  2.8702
+  std. dev.      1.0197  1.5814
+  weight sum         90      78
+  precision      0.0754  0.0754
+
+var29
+  mean            2.769  2.8317
+  std. dev.       1.146  1.4024
+  weight sum         90      78
+  precision      0.0573  0.0573
+
+var30
+  mean           2.8539  3.0898
+  std. dev.        1.13  1.5919
+  weight sum         90      78
+  precision      0.0707  0.0707
+
+var31
+  mean           3.1611  3.3172
+  std. dev.      1.3461  1.5746
+  weight sum         90      78
+  precision      0.0562  0.0562
+
+var32
+  mean           3.1326  3.2898
+  std. dev.      1.3054   1.577
+  weight sum         90      78
+  precision      0.0582  0.0582
+
+var33
+  mean           2.3463  2.3741
+  std. dev.      0.9598  1.2243
+  weight sum         90      78
+  precision       0.046   0.046
+
+var34
+  mean           2.1301  2.1827
+  std. dev.      0.8389  1.1202
+  weight sum         90      78
+  precision      0.0427  0.0427
+
+var35
+  mean           1.6767  1.7037
+  std. dev.       0.827  1.1134
+  weight sum         90      78
+  precision      0.0441  0.0441
+
+var36
+  mean           1.5479  1.5657
+  std. dev.      0.7852  1.0498
+  weight sum         90      78
+  precision      0.0452  0.0452
+
+var37
+  mean           1.4798  1.4837
+  std. dev.      0.8006  0.8266
+  weight sum         90      78
+  precision       0.032   0.032
+
+var38
+  mean           1.8077  1.7134
+  std. dev.      0.8361  1.0132
+  weight sum         90      78
+  precision      0.0411  0.0411
+
+var39
+  mean           1.5838  1.5991
+  std. dev.      0.6529  0.8338
+  weight sum         90      78
+  precision      0.0347  0.0347
+
+var40
+  mean           1.7057  1.6281
+  std. dev.      0.8524  0.6995
+  weight sum         90      78
+  precision      0.0285  0.0285
+
+var41
+  mean           1.8825   1.924
+  std. dev.      0.7115  0.9448
+  weight sum         90      78
+  precision      0.0396  0.0396
+
+var42
+  mean           2.0105  1.8928
+  std. dev.      1.0062  0.7497
+  weight sum         90      78
+  precision      0.0355  0.0355
+
+var43
+  mean           2.1546  2.1264
+  std. dev.      0.8753  0.9312
+  weight sum         90      78
+  precision      0.0343  0.0343
+
+var44
+  mean           2.0762  2.0951
+  std. dev.      0.7733  0.9995
+  weight sum         90      78
+  precision      0.0424  0.0424
+
+var45
+  mean           2.1765  2.0526
+  std. dev.      1.0473  0.7897
+  weight sum         90      78
+  precision      0.0353  0.0353
+
+var46
+  mean           2.1851  2.2114
+  std. dev.      0.8191  1.0162
+  weight sum         90      78
+  precision      0.0416  0.0416
+
+var47
+  mean           2.2525  2.2301
+  std. dev.      0.9032  0.9416
+  weight sum         90      78
+  precision      0.0304  0.0304
+
+var48
+  mean           2.1668   2.175
+  std. dev.       0.831    0.97
+  weight sum         90      78
+  precision      0.0343  0.0343
+
+var49
+  mean           1.3396   1.347
+  std. dev.      0.5464  0.4256
+  weight sum         90      78
+  precision      0.0225  0.0225
+
+var50
+  mean           1.3881  1.3763
+  std. dev.      0.5501  0.4122
+  weight sum         90      78
+  precision      0.0215  0.0215
+
+var51
+  mean           1.5048  1.5432
+  std. dev.      0.6306  0.5126
+  weight sum         90      78
+  precision      0.0228  0.0228
+
+var52
+  mean           1.6294  1.6714
+  std. dev.      0.6789  0.5487
+  weight sum         90      78
+  precision       0.022   0.022
+
+var53
+  mean           1.5509   1.628
+  std. dev.      0.5369  0.5047
+  weight sum         90      78
+  precision      0.0154  0.0154
+
+var54
+  mean           1.6921  1.6957
+  std. dev.      0.7053  0.5708
+  weight sum         90      78
+  precision      0.0245  0.0245
+
+var55
+  mean           1.7267  1.8232
+  std. dev.      0.6102  0.5103
+  weight sum         90      78
+  precision      0.0175  0.0175
+
+var56
+  mean           1.8111  1.8876
+  std. dev.      0.4824  0.4924
+  weight sum         90      78
+  precision      0.0127  0.0127
+
+var57
+  mean           1.8892  2.0948
+  std. dev.      0.7087  0.6526
+  weight sum         90      78
+  precision      0.0213  0.0213
+
+var58
+  mean           2.0573  2.1795
+  std. dev.        0.55  0.5962
+  weight sum         90      78
+  precision      0.0151  0.0151
+
+var59
+  mean           2.1414  2.1731
+  std. dev.      0.8078  0.7605
+  weight sum         90      78
+  precision      0.0208  0.0208
+
+var60
+  mean           1.9779  2.2028
+  std. dev.      0.7607  0.7446
+  weight sum         90      78
+  precision      0.0223  0.0223
+
+var61
+  mean           2.1464  2.2523
+  std. dev.      0.6591  0.7247
+  weight sum         90      78
+  precision      0.0181  0.0181
+
+var62
+  mean           2.1001  2.2669
+  std. dev.      0.7603  0.7685
+  weight sum         90      78
+  precision       0.024   0.024
+
+var63
+  mean           2.3017  2.4173
+  std. dev.      0.7974   0.927
+  weight sum         90      78
+  precision      0.0235  0.0235
+
+var64
+  mean            1.887  1.9955
+  std. dev.      0.6283  0.6683
+  weight sum         90      78
+  precision      0.0175  0.0175
+
+var65
+  mean           0.4784  0.4915
+  std. dev.       0.127  0.1158
+  weight sum         90      78
+  precision      0.0054  0.0054
+
+var66
+  mean           0.4755  0.5077
+  std. dev.      0.1349  0.1057
+  weight sum         90      78
+  precision       0.006   0.006
+
+var67
+  mean           0.5349  0.5559
+  std. dev.      0.1207  0.1217
+  weight sum         90      78
+  precision      0.0039  0.0039
+
+var68
+  mean           0.5458  0.6031
+  std. dev.      0.1241  0.1276
+  weight sum         90      78
+  precision      0.0052  0.0052
+
+var69
+  mean           0.5318  0.5533
+  std. dev.      0.1032   0.123
+  weight sum         90      78
+  precision      0.0036  0.0036
+
+var70
+  mean           0.5974  0.6329
+  std. dev.      0.1353  0.1265
+  weight sum         90      78
+  precision      0.0041  0.0041
+
+var71
+  mean           0.5481  0.5934
+  std. dev.      0.1079  0.1125
+  weight sum         90      78
+  precision      0.0036  0.0036
+
+var72
+  mean           0.5941  0.6225
+  std. dev.      0.1099  0.1179
+  weight sum         90      78
+  precision      0.0039  0.0039
+
+var73
+  mean           0.5818  0.6102
+  std. dev.      0.1156  0.1243
+  weight sum         90      78
+  precision      0.0037  0.0037
+
+var74
+  mean           0.6542  0.6928
+  std. dev.      0.1338   0.137
+  weight sum         90      78
+  precision      0.0051  0.0051
+
+var75
+  mean            0.673   0.707
+  std. dev.      0.1319  0.1428
+  weight sum         90      78
+  precision      0.0055  0.0055
+
+var76
+  mean           0.5914  0.6307
+  std. dev.      0.1282  0.1312
+  weight sum         90      78
+  precision       0.005   0.005
+
+var77
+  mean           0.6312  0.6727
+  std. dev.      0.1324  0.1451
+  weight sum         90      78
+  precision      0.0047  0.0047
+
+var78
+  mean           0.6291  0.6661
+  std. dev.      0.1316  0.1348
+  weight sum         90      78
+  precision       0.005   0.005
+
+var79
+  mean           0.6688  0.7308
+  std. dev.      0.1259  0.1425
+  weight sum         90      78
+  precision      0.0042  0.0042
+
+var80
+  mean           0.6163  0.6619
+  std. dev.      0.1233  0.1274
+  weight sum         90      78
+  precision      0.0048  0.0048
+
+var81
+  mean            0.297  0.3061
+  std. dev.      0.0614  0.0506
+  weight sum         90      78
+  precision      0.0026  0.0026
+
+var82
+  mean            0.331   0.331
+  std. dev.      0.0639  0.0533
+  weight sum         90      78
+  precision      0.0026  0.0026
+
+var83
+  mean           0.3293  0.3471
+  std. dev.      0.0524  0.0579
+  weight sum         90      78
+  precision      0.0023  0.0023
+
+var84
+  mean           0.3665  0.4009
+  std. dev.       0.065   0.072
+  weight sum         90      78
+  precision      0.0025  0.0025
+
+var85
+  mean           0.3426  0.3661
+  std. dev.      0.0483  0.0546
+  weight sum         90      78
+  precision       0.002   0.002
+
+var86
+  mean           0.3801  0.4027
+  std. dev.      0.0661  0.0662
+  weight sum         90      78
+  precision      0.0029  0.0029
+
+var87
+  mean           0.3881  0.4108
+  std. dev.      0.0604   0.069
+  weight sum         90      78
+  precision      0.0024  0.0024
+
+var88
+  mean           0.4014  0.4352
+  std. dev.      0.0623   0.054
+  weight sum         90      78
+  precision      0.0022  0.0022
+
+var89
+  mean           0.3994    0.41
+  std. dev.      0.0604  0.0704
+  weight sum         90      78
+  precision      0.0025  0.0025
+
+var90
+  mean           0.4173  0.4639
+  std. dev.      0.0666  0.0611
+  weight sum         90      78
+  precision      0.0023  0.0023
+
+var91
+  mean           0.4241  0.4504
+  std. dev.      0.0692  0.0714
+  weight sum         90      78
+  precision      0.0026  0.0026
+
+var92
+  mean           0.3961  0.4109
+  std. dev.      0.0671  0.0686
+  weight sum         90      78
+  precision      0.0024  0.0024
+
+var93
+  mean           0.3962  0.4373
+  std. dev.       0.064  0.0701
+  weight sum         90      78
+  precision      0.0023  0.0023
+
+var94
+  mean           0.4176  0.4288
+  std. dev.      0.0689  0.0756
+  weight sum         90      78
+  precision      0.0026  0.0026
+
+var95
+  mean           0.4547  0.4778
+  std. dev.      0.0683  0.0759
+  weight sum         90      78
+  precision      0.0025  0.0025
+
+var96
+  mean           0.4188  0.4341
+  std. dev.       0.065   0.078
+  weight sum         90      78
+  precision      0.0028  0.0028
+
+var97
+  mean           0.2847  0.2842
+  std. dev.      0.0466   0.043
+  weight sum         90      78
+  precision      0.0018  0.0018
+
+var98
+  mean           0.3016  0.2998
+  std. dev.      0.0485   0.045
+  weight sum         90      78
+  precision      0.0017  0.0017
+
+var99
+  mean           0.2934  0.2991
+  std. dev.      0.0451   0.054
+  weight sum         90      78
+  precision      0.0018  0.0018
+
+var100
+  mean           0.3085  0.3454
+  std. dev.      0.0541  0.0813
+  weight sum         90      78
+  precision      0.0024  0.0024
+
+var101
+  mean           0.3055  0.3192
+  std. dev.      0.0484  0.0501
+  weight sum         90      78
+  precision      0.0019  0.0019
+
+var102
+  mean           0.3177  0.3283
+  std. dev.      0.0493  0.0648
+  weight sum         90      78
+  precision      0.0019  0.0019
+
+var103
+  mean           0.3311  0.3569
+  std. dev.      0.0545  0.0648
+  weight sum         90      78
+  precision      0.0022  0.0022
+
+var104
+  mean           0.3827  0.3965
+  std. dev.      0.0475  0.0669
+  weight sum         90      78
+  precision      0.0019  0.0019
+
+var105
+  mean           0.3453  0.3549
+  std. dev.      0.0577  0.0588
+  weight sum         90      78
+  precision      0.0022  0.0022
+
+var106
+  mean           0.3778  0.4085
+  std. dev.      0.0588  0.0759
+  weight sum         90      78
+  precision      0.0025  0.0025
+
+var107
+  mean           0.3406  0.3538
+  std. dev.      0.0569  0.0742
+  weight sum         90      78
+  precision      0.0023  0.0023
+
+var108
+  mean           0.3293  0.3416
+  std. dev.      0.0536  0.0668
+  weight sum         90      78
+  precision      0.0022  0.0022
+
+var109
+  mean           0.3742  0.3966
+  std. dev.      0.0572  0.0673
+  weight sum         90      78
+  precision      0.0023  0.0023
+
+var110
+  mean           0.3428  0.3542
+  std. dev.      0.0571  0.0702
+  weight sum         90      78
+  precision      0.0022  0.0022
+
+var111
+  mean           0.3993  0.4127
+  std. dev.      0.0598  0.0651
+  weight sum         90      78
+  precision      0.0024  0.0024
+
+var112
+  mean           0.3518  0.3672
+  std. dev.      0.0611  0.0709
+  weight sum         90      78
+  precision      0.0024  0.0024
+
+
+
+Time taken to build model: 0 seconds
+
+=== Predictions on test data ===
+
+inst#,    actual, predicted, error, probability distribution
+     1        2:1        1:0      +  *1      0    
+     2        2:1        1:0      +  *0.926  0.074
+     3        2:1        2:1          0.333 *0.667
+     4        2:1        2:1          0.089 *0.911
+     5        2:1        2:1          0.001 *0.999
+     6        2:1        2:1          0     *1    
+     7        2:1        1:0      +  *0.999  0.001
+     8        2:1        2:1          0     *1    
+     9        1:0        1:0         *0.862  0.138
+    10        1:0        1:0         *1      0    
+    11        1:0        1:0         *1      0    
+    12        1:0        1:0         *0.831  0.169
+    13        1:0        1:0         *1      0    
+    14        1:0        1:0         *1      0    
+    15        1:0        1:0         *1      0    
+    16        1:0        2:1      +   0.002 *0.998
+    17        1:0        1:0         *1      0    
+     1        2:1        2:1          0     *1    
+     2        2:1        2:1          0     *1    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        1:0      +  *0.818  0.182
+     5        2:1        1:0      +  *1      0    
+     6        2:1        2:1          0     *1    
+     7        2:1        1:0      +  *1      0    
+     8        2:1        1:0      +  *0.827  0.173
+     9        1:0        2:1      +   0     *1    
+    10        1:0        2:1      +   0     *1    
+    11        1:0        1:0         *1      0    
+    12        1:0        1:0         *0.998  0.002
+    13        1:0        1:0         *0.999  0.001
+    14        1:0        2:1      +   0     *1    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        1:0         *0.967  0.033
+     1        2:1        2:1          0     *1    
+     2        2:1        2:1          0.072 *0.928
+     3        2:1        1:0      +  *1      0    
+     4        2:1        1:0      +  *1      0    
+     5        2:1        2:1          0.001 *0.999
+     6        2:1        1:0      +  *1      0    
+     7        2:1        1:0      +  *1      0    
+     8        2:1        1:0      +  *1      0    
+     9        1:0        2:1      +   0     *1    
+    10        1:0        2:1      +   0.036 *0.964
+    11        1:0        1:0         *1      0    
+    12        1:0        1:0         *0.884  0.116
+    13        1:0        1:0         *0.986  0.014
+    14        1:0        1:0         *0.515  0.485
+    15        1:0        1:0         *1      0    
+    16        1:0        2:1      +   0.36  *0.64 
+    17        1:0        1:0         *0.988  0.012
+     1        2:1        2:1          0     *1    
+     2        2:1        1:0      +  *0.945  0.055
+     3        2:1        2:1          0.008 *0.992
+     4        2:1        2:1          0.001 *0.999
+     5        2:1        2:1          0     *1    
+     6        2:1        1:0      +  *1      0    
+     7        2:1        1:0      +  *0.999  0.001
+     8        2:1        1:0      +  *1      0    
+     9        1:0        1:0         *1      0    
+    10        1:0        2:1      +   0     *1    
+    11        1:0        2:1      +   0     *1    
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        1:0         *0.97   0.03 
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *0.997  0.003
+    17        1:0        1:0         *0.729  0.271
+     1        2:1        1:0      +  *1      0    
+     2        2:1        1:0      +  *1      0    
+     3        2:1        2:1          0     *1    
+     4        2:1        2:1          0.001 *0.999
+     5        2:1        2:1          0.021 *0.979
+     6        2:1        2:1          0     *1    
+     7        2:1        1:0      +  *0.999  0.001
+     8        2:1        2:1          0     *1    
+     9        1:0        1:0         *0.999  0.001
+    10        1:0        2:1      +   0.023 *0.977
+    11        1:0        2:1      +   0.013 *0.987
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        1:0         *1      0    
+    15        1:0        1:0         *0.954  0.046
+    16        1:0        2:1      +   0     *1    
+    17        1:0        1:0         *1      0    
+     1        2:1        2:1          0.01  *0.99 
+     2        2:1        2:1          0.002 *0.998
+     3        2:1        1:0      +  *1      0    
+     4        2:1        1:0      +  *0.999  0.001
+     5        2:1        1:0      +  *1      0    
+     6        2:1        2:1          0     *1    
+     7        2:1        2:1          0     *1    
+     8        2:1        2:1          0.021 *0.979
+     9        1:0        2:1      +   0     *1    
+    10        1:0        1:0         *1      0    
+    11        1:0        1:0         *1      0    
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        1:0         *1      0    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        1:0         *1      0    
+     1        2:1        1:0      +  *0.763  0.237
+     2        2:1        1:0      +  *1      0    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        1:0      +  *0.987  0.013
+     5        2:1        1:0      +  *1      0    
+     6        2:1        1:0      +  *1      0    
+     7        2:1        2:1          0.018 *0.982
+     8        2:1        1:0      +  *1      0    
+     9        1:0        2:1      +   0.003 *0.997
+    10        1:0        1:0         *1      0    
+    11        1:0        1:0         *1      0    
+    12        1:0        2:1      +   0     *1    
+    13        1:0        1:0         *1      0    
+    14        1:0        2:1      +   0     *1    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        1:0         *1      0    
+     1        2:1        1:0      +  *0.996  0.004
+     2        2:1        2:1          0.002 *0.998
+     3        2:1        1:0      +  *0.589  0.411
+     4        2:1        2:1          0.471 *0.529
+     5        2:1        1:0      +  *0.999  0.001
+     6        2:1        2:1          0     *1    
+     7        2:1        1:0      +  *0.997  0.003
+     8        2:1        1:0      +  *1      0    
+     9        1:0        1:0         *1      0    
+    10        1:0        1:0         *1      0    
+    11        1:0        2:1      +   0.251 *0.749
+    12        1:0        1:0         *0.994  0.006
+    13        1:0        2:1      +   0     *1    
+    14        1:0        1:0         *1      0    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        1:0         *0.612  0.388
+     1        2:1        1:0      +  *1      0    
+     2        2:1        2:1          0     *1    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        1:0      +  *1      0    
+     5        2:1        1:0      +  *0.998  0.002
+     6        2:1        1:0      +  *1      0    
+     7        2:1        2:1          0     *1    
+     8        1:0        1:0         *0.975  0.025
+     9        1:0        1:0         *1      0    
+    10        1:0        1:0         *1      0    
+    11        1:0        1:0         *0.739  0.261
+    12        1:0        2:1      +   0     *1    
+    13        1:0        1:0         *1      0    
+    14        1:0        1:0         *0.999  0.001
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+     1        2:1        1:0      +  *1      0    
+     2        2:1        2:1          0     *1    
+     3        2:1        2:1          0.024 *0.976
+     4        2:1        1:0      +  *0.883  0.117
+     5        2:1        1:0      +  *0.996  0.004
+     6        2:1        1:0      +  *1      0    
+     7        2:1        2:1          0     *1    
+     8        1:0        1:0         *0.894  0.106
+     9        1:0        1:0         *1      0    
+    10        1:0        1:0         *1      0    
+    11        1:0        1:0         *0.935  0.065
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        2:1      +   0.212 *0.788
+    15        1:0        1:0         *0.921  0.079
+    16        1:0        2:1      +   0     *1    
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         103               61.3095 %
+Incorrectly Classified Instances        65               38.6905 %
+Kappa statistic                          0.2066
+Mean absolute error                      0.3937
+Root mean squared error                  0.6082
+Relative absolute error                 79.1422 %
+Root relative squared error            121.949  %
+Total Number of Instances              168     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.767     0.564      0.611     0.767     0.68       0.613    0
+                 0.436     0.233      0.618     0.436     0.511      0.612    1
+Weighted Avg.    0.613     0.411      0.614     0.613     0.602      0.612
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 69 21 |  a = 0
+ 44 34 |  b = 1
+

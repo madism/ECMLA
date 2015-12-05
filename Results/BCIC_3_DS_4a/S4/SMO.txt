@@ -1,0 +1,339 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -C 250007 -E 1.0"
+Relation:     classes
+Instances:    168
+Attributes:   113
+[list of attributes omitted]
+Test mode:10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: 0, 1
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0878 * (normalized) var1
+ +       0.2761 * (normalized) var2
+ +       0.0579 * (normalized) var3
+ +       0.3119 * (normalized) var4
+ +      -0.1349 * (normalized) var5
+ +       0.4273 * (normalized) var6
+ +      -0.361  * (normalized) var7
+ +       0.0394 * (normalized) var8
+ +       0.0932 * (normalized) var9
+ +       0.0981 * (normalized) var10
+ +       0.7856 * (normalized) var11
+ +      -0.0483 * (normalized) var12
+ +       0.3036 * (normalized) var13
+ +      -0.3031 * (normalized) var14
+ +       0.2005 * (normalized) var15
+ +       0.4602 * (normalized) var16
+ +       0.3959 * (normalized) var17
+ +      -0.1213 * (normalized) var18
+ +       0.0978 * (normalized) var19
+ +      -0.781  * (normalized) var20
+ +       0.2205 * (normalized) var21
+ +      -0.4407 * (normalized) var22
+ +       0.3    * (normalized) var23
+ +       0.4114 * (normalized) var24
+ +       0.2974 * (normalized) var25
+ +       0.1455 * (normalized) var26
+ +      -0.485  * (normalized) var27
+ +       0.171  * (normalized) var28
+ +      -0.0169 * (normalized) var29
+ +       0.2604 * (normalized) var30
+ +       0.5494 * (normalized) var31
+ +       0.1842 * (normalized) var32
+ +       0.0305 * (normalized) var33
+ +      -0.0172 * (normalized) var34
+ +       0.2039 * (normalized) var35
+ +      -0.09   * (normalized) var36
+ +      -0.0312 * (normalized) var37
+ +      -0.6968 * (normalized) var38
+ +      -0.4043 * (normalized) var39
+ +      -0.5665 * (normalized) var40
+ +      -0.3191 * (normalized) var41
+ +      -0.7486 * (normalized) var42
+ +      -0.2205 * (normalized) var43
+ +      -0.3851 * (normalized) var44
+ +      -0.6155 * (normalized) var45
+ +      -0.195  * (normalized) var46
+ +      -0.1602 * (normalized) var47
+ +      -0.0252 * (normalized) var48
+ +       0.2104 * (normalized) var49
+ +      -0.5512 * (normalized) var50
+ +       0.2407 * (normalized) var51
+ +      -0.8321 * (normalized) var52
+ +       0.4947 * (normalized) var53
+ +      -0.8488 * (normalized) var54
+ +       0.0282 * (normalized) var55
+ +       0.3735 * (normalized) var56
+ +       0.8524 * (normalized) var57
+ +       0.6875 * (normalized) var58
+ +      -0.6305 * (normalized) var59
+ +       0.726  * (normalized) var60
+ +      -0.1858 * (normalized) var61
+ +      -0.0791 * (normalized) var62
+ +       0.1018 * (normalized) var63
+ +       0.0308 * (normalized) var64
+ +       0.2359 * (normalized) var65
+ +       1.3438 * (normalized) var66
+ +      -0.0252 * (normalized) var67
+ +       1.098  * (normalized) var68
+ +      -0.1168 * (normalized) var69
+ +       0.0936 * (normalized) var70
+ +       0.7533 * (normalized) var71
+ +       0.065  * (normalized) var72
+ +      -0.5896 * (normalized) var73
+ +       0.0856 * (normalized) var74
+ +      -0.6494 * (normalized) var75
+ +       0.1593 * (normalized) var76
+ +       0.1071 * (normalized) var77
+ +      -0.099  * (normalized) var78
+ +       1.5035 * (normalized) var79
+ +       0.4709 * (normalized) var80
+ +       0.0537 * (normalized) var81
+ +      -1.0402 * (normalized) var82
+ +      -0.3019 * (normalized) var83
+ +       0.8149 * (normalized) var84
+ +      -0.2225 * (normalized) var85
+ +      -0.0487 * (normalized) var86
+ +       0.3301 * (normalized) var87
+ +       0.6752 * (normalized) var88
+ +      -1.2714 * (normalized) var89
+ +       1.417  * (normalized) var90
+ +       0.2215 * (normalized) var91
+ +      -0.3623 * (normalized) var92
+ +       1.5629 * (normalized) var93
+ +      -0.9934 * (normalized) var94
+ +      -0.0878 * (normalized) var95
+ +      -0.7843 * (normalized) var96
+ +      -0.3935 * (normalized) var97
+ +      -1.3907 * (normalized) var98
+ +      -0.4184 * (normalized) var99
+ +       1.439  * (normalized) var100
+ +       0.5442 * (normalized) var101
+ +      -0.286  * (normalized) var102
+ +       1.3277 * (normalized) var103
+ +       0.0821 * (normalized) var104
+ +      -0.2015 * (normalized) var105
+ +       0.4535 * (normalized) var106
+ +      -0.4553 * (normalized) var107
+ +      -0.1839 * (normalized) var108
+ +       0.346  * (normalized) var109
+ +      -0.3403 * (normalized) var110
+ +      -0.4436 * (normalized) var111
+ +       0.3742 * (normalized) var112
+ -       2.5823
+
+Number of kernel evaluations: 9564 (86.33% cached)
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Predictions on test data ===
+
+inst#,    actual, predicted, error, probability distribution
+     1        2:1        1:0      +  *1      0    
+     2        2:1        2:1          0     *1    
+     3        2:1        2:1          0     *1    
+     4        2:1        1:0      +  *1      0    
+     5        2:1        1:0      +  *1      0    
+     6        2:1        2:1          0     *1    
+     7        2:1        1:0      +  *1      0    
+     8        2:1        1:0      +  *1      0    
+     9        1:0        1:0         *1      0    
+    10        1:0        1:0         *1      0    
+    11        1:0        1:0         *1      0    
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        1:0         *1      0    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        1:0         *1      0    
+     1        2:1        2:1          0     *1    
+     2        2:1        2:1          0     *1    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        2:1          0     *1    
+     5        2:1        1:0      +  *1      0    
+     6        2:1        1:0      +  *1      0    
+     7        2:1        1:0      +  *1      0    
+     8        2:1        2:1          0     *1    
+     9        1:0        2:1      +   0     *1    
+    10        1:0        1:0         *1      0    
+    11        1:0        1:0         *1      0    
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        1:0         *1      0    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        2:1      +   0     *1    
+     1        2:1        2:1          0     *1    
+     2        2:1        2:1          0     *1    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        1:0      +  *1      0    
+     5        2:1        2:1          0     *1    
+     6        2:1        1:0      +  *1      0    
+     7        2:1        1:0      +  *1      0    
+     8        2:1        1:0      +  *1      0    
+     9        1:0        2:1      +   0     *1    
+    10        1:0        2:1      +   0     *1    
+    11        1:0        1:0         *1      0    
+    12        1:0        2:1      +   0     *1    
+    13        1:0        1:0         *1      0    
+    14        1:0        2:1      +   0     *1    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        1:0         *1      0    
+     1        2:1        1:0      +  *1      0    
+     2        2:1        1:0      +  *1      0    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        1:0      +  *1      0    
+     5        2:1        2:1          0     *1    
+     6        2:1        1:0      +  *1      0    
+     7        2:1        1:0      +  *1      0    
+     8        2:1        1:0      +  *1      0    
+     9        1:0        1:0         *1      0    
+    10        1:0        2:1      +   0     *1    
+    11        1:0        2:1      +   0     *1    
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        1:0         *1      0    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        2:1      +   0     *1    
+     1        2:1        2:1          0     *1    
+     2        2:1        2:1          0     *1    
+     3        2:1        2:1          0     *1    
+     4        2:1        1:0      +  *1      0    
+     5        2:1        1:0      +  *1      0    
+     6        2:1        2:1          0     *1    
+     7        2:1        1:0      +  *1      0    
+     8        2:1        2:1          0     *1    
+     9        1:0        1:0         *1      0    
+    10        1:0        1:0         *1      0    
+    11        1:0        2:1      +   0     *1    
+    12        1:0        1:0         *1      0    
+    13        1:0        2:1      +   0     *1    
+    14        1:0        1:0         *1      0    
+    15        1:0        1:0         *1      0    
+    16        1:0        2:1      +   0     *1    
+    17        1:0        1:0         *1      0    
+     1        2:1        2:1          0     *1    
+     2        2:1        2:1          0     *1    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        1:0      +  *1      0    
+     5        2:1        2:1          0     *1    
+     6        2:1        2:1          0     *1    
+     7        2:1        1:0      +  *1      0    
+     8        2:1        2:1          0     *1    
+     9        1:0        1:0         *1      0    
+    10        1:0        1:0         *1      0    
+    11        1:0        2:1      +   0     *1    
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        2:1      +   0     *1    
+    15        1:0        2:1      +   0     *1    
+    16        1:0        1:0         *1      0    
+    17        1:0        1:0         *1      0    
+     1        2:1        2:1          0     *1    
+     2        2:1        1:0      +  *1      0    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        2:1          0     *1    
+     5        2:1        1:0      +  *1      0    
+     6        2:1        1:0      +  *1      0    
+     7        2:1        1:0      +  *1      0    
+     8        2:1        2:1          0     *1    
+     9        1:0        2:1      +   0     *1    
+    10        1:0        2:1      +   0     *1    
+    11        1:0        1:0         *1      0    
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        2:1      +   0     *1    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        1:0         *1      0    
+     1        2:1        1:0      +  *1      0    
+     2        2:1        1:0      +  *1      0    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        2:1          0     *1    
+     5        2:1        2:1          0     *1    
+     6        2:1        2:1          0     *1    
+     7        2:1        2:1          0     *1    
+     8        2:1        1:0      +  *1      0    
+     9        1:0        1:0         *1      0    
+    10        1:0        1:0         *1      0    
+    11        1:0        2:1      +   0     *1    
+    12        1:0        1:0         *1      0    
+    13        1:0        2:1      +   0     *1    
+    14        1:0        1:0         *1      0    
+    15        1:0        1:0         *1      0    
+    16        1:0        1:0         *1      0    
+    17        1:0        1:0         *1      0    
+     1        2:1        1:0      +  *1      0    
+     2        2:1        1:0      +  *1      0    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        1:0      +  *1      0    
+     5        2:1        2:1          0     *1    
+     6        2:1        2:1          0     *1    
+     7        2:1        2:1          0     *1    
+     8        1:0        1:0         *1      0    
+     9        1:0        2:1      +   0     *1    
+    10        1:0        1:0         *1      0    
+    11        1:0        1:0         *1      0    
+    12        1:0        2:1      +   0     *1    
+    13        1:0        2:1      +   0     *1    
+    14        1:0        1:0         *1      0    
+    15        1:0        2:1      +   0     *1    
+    16        1:0        1:0         *1      0    
+     1        2:1        2:1          0     *1    
+     2        2:1        2:1          0     *1    
+     3        2:1        1:0      +  *1      0    
+     4        2:1        2:1          0     *1    
+     5        2:1        2:1          0     *1    
+     6        2:1        1:0      +  *1      0    
+     7        2:1        2:1          0     *1    
+     8        1:0        2:1      +   0     *1    
+     9        1:0        1:0         *1      0    
+    10        1:0        1:0         *1      0    
+    11        1:0        1:0         *1      0    
+    12        1:0        1:0         *1      0    
+    13        1:0        1:0         *1      0    
+    14        1:0        1:0         *1      0    
+    15        1:0        2:1      +   0     *1    
+    16        1:0        1:0         *1      0    
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         100               59.5238 %
+Incorrectly Classified Instances        68               40.4762 %
+Kappa statistic                          0.175 
+Mean absolute error                      0.4048
+Root mean squared error                  0.6362
+Relative absolute error                 81.3567 %
+Root relative squared error            127.558  %
+Total Number of Instances              168     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 0.711     0.538      0.604     0.711     0.653      0.586    0
+                 0.462     0.289      0.581     0.462     0.514      0.586    1
+Weighted Avg.    0.595     0.423      0.593     0.595     0.589      0.586
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 64 26 |  a = 0
+ 42 36 |  b = 1
+
