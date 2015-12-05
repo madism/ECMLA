@@ -13,6 +13,9 @@
 
 ### Changelog:
 
+#### 05.12.2015 - 
+* Major overhaul (new graphs and results)
+
 #### 13.05.2015 - Updated the graphs
 * Clustergrams now only show True Positive and True Negative values (false values are white).
 * Minor bugfixes and code changes
