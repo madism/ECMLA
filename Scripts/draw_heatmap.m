@@ -14,21 +14,24 @@ load('results_tables.mat')
 %metric=fscore;
 %metric=avg_ca;
 %metric=avg_time;
-metric=avg_fscore;
+%metric=avg_fscore;
+%metric=autoweka_results;
+metric=autoweka_results_avg;
 
 % Name the tick labels
 algorithm_xticklabels = {'AB';'KNN';'C45';'LRM';'MPN';'NB';'RF';'RFN';'MCP';'SVM'};
 %algorithm_yticklabels = {'S1';'S2';'S3';'S4';'S5';'S6';'S7';'S8';'S9';'S10'};
 %algorithm_yticklabels = {'Avg. CA'};
 %algorithm_yticklabels = {'Avg. Time'};
-algorithm_yticklabels = {'Avg. F-score'};
+%algorithm_yticklabels = {'Avg. F-score'};
+algorithm_yticklabels = {'CA W/O PO'; 'CA W/ PO'};
 
 % Draw the matrix
 disp('Drawing a heatmap for the results table...');
 imagesc(metric);
 
 % Change the colormap to greyscale 
-colormap(flipud(gray));
+% colormap(flipud(gray));
 % colormap(flipud(colormap)); Use this when you want to invert the colors
 
 % Set X tick values
@@ -49,7 +52,7 @@ hStrings = text(x(:),y(:),textStrings(:), 'HorizontalAlignment','center', 'FontS
 % Get the middle value of the color range
 midValue = mean(get(gca,'CLim'));   
 % Choose white or black for the text color of the strings
-textColors = repmat(metric(:) > midValue,1,3);
+textColors = repmat(metric(:) < midValue,1,3);
 % Change the text colors
 set(hStrings,{'Color'},num2cell(textColors,2));  
 disp('Done.');
