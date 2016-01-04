@@ -13,6 +13,12 @@
 
 ### Changelog:
 
+#### 04.01.2016 - Finishing touches
+*  LRM is renamed to LR
+*  Added optimized parameter values
+*  Removed 2 folders
+*  Added a script for drawing an example signal before and after Fourier Transform
+
 #### 05.12.2015 - Major overhaul
 *  Updated graphs and results
 
