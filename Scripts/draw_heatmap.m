@@ -19,7 +19,7 @@ load('results_tables.mat')
 metric=autoweka_results_avg;
 
 % Name the tick labels
-algorithm_xticklabels = {'AB';'KNN';'C45';'LRM';'MPN';'NB';'RF';'RFN';'MCP';'SVM'};
+algorithm_xticklabels = {'AB';'KNN';'C45';'LR';'MPN';'NB';'RF';'RFN';'MCP';'SVM'};
 %algorithm_yticklabels = {'S1';'S2';'S3';'S4';'S5';'S6';'S7';'S8';'S9';'S10'};
 %algorithm_yticklabels = {'Avg. CA'};
 %algorithm_yticklabels = {'Avg. Time'};
